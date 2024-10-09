@@ -1,3 +1,6 @@
+Jupiter notebook to be run cell by cell sequentially !!!
+Not all atribute of a property added yet.
+
 # Immo Eliza - Data Collection
 
 - Repository: `immo-eliza-scraping`
