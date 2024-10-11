@@ -1,5 +1,4 @@
-Jupiter notebook to be run cell by cell sequentially !!!
-Not all atribute of a property added yet.
+JUPITER NOTEBOOK TO BE RUN CELL BY CELL SEQUENTIALLY !!!
 
 # Immo Eliza - Data Collection
 
@@ -32,7 +31,7 @@ The final dataset should be a `csv` file with at least the following 18 columns:
 - Price
 - Type of property (house or apartment)
 - Subtype of property (bungalow, chalet, mansion, ...)
-- Type of sale (_note_: exclude life sales)
+- Type of sale (_note_: exclude life sales)   >> NOT IN LIST, BUT EXCLUDED IN THE SEARCH URL
 - Number of rooms
 - Living area (area in m²)
 - Equipped kitchen (0/1)
@@ -46,24 +45,21 @@ The final dataset should be a `csv` file with at least the following 18 columns:
 
 ## Must-have features (for the dataset)
 
-- The data should have properties across all Belgium
-- There should be at minimum unique 10000 data points
-- Missing information is initially encoded with `None`
+- The data should have properties across all Belgium >> SORTING IN INITAL LIST_URL BY "NEWEST : THIS SHOULD GIVE A RANDOM SELECTION ACCROSS BELGIUM
+- There should be at minimum unique 10000 data points >> LIST IN IMMOWEB ARE BY DEFAULT LIMITED TO 333 PAGES, EACH OF 30 PROPERTIES.  HENCE INITIAL SET UP IS FOR 9990 DATAPOINTS
+								                          A SEPERATE LIST COULD BE RUN FOR "HOUSES" AND "APPARTMENTS" AND COMBINED.  MAKING TO THE TOTAL OF DATAPOINT = 19980.
+- Missing information is initially encoded with `None`>> FIELD LEFT BLANK FOR NOW
 - Whenever possible, record only numerical values (for example, instead of defining whether the kitchen is equipped using `"Yes"` or `"No"`, use binary values instead)
 - Use appropriate and consistent column names for your variables (those will be key to training and understanding your model later on)
-- No duplicates
-- No empty rows
+- No duplicates >> TO BE CHECKED IN DF
+- No empty rows >> TO BE CHECKED IN DF
+
+AS MUCH AS POSSIBLE, RAW DATA WAS RETRIEVED FOR PERFORMANCE REASONS
+IN THE NEXT PHASE, DATA ENHANCEMENT BY IMPLEMENTING RULES LIKE: YES =1, NO = 0. Or if number of open fires >= 1, then 1, otherwise 0, etc.
 
 ## Tips
 
-- Make a plan of attack! As you saw with a previous project, it can be useful to **start with a notebook** and break the project into smaller pieces. Take a moment to note it down.
-- Start small and test often! Start by scraping one property then figure out how to scale up. Once you've tested you code for a few properties, move on to 10, 100, 1000,... etc. 
-- Python packages that will come in very handy: `requests`, `BeautifulSoup`, `Selinium` and `pandas`
-  - You can use other scraping tools such as `scrapy` or `playwright`at your own risk.
-  - Keep it light in terms of `pandas` tooling, we'll give you some time afterwards to dive deeper into it for the analysis and visualization part
-- You can use concurrency (Python advanced, Bonus material) to increase the speed of data collection
-- You might have to work around CAPTCHA and other measures that want to slow you down in the scraping process - be creative ;-)
-- Commit regularly and often
+- NEXT POSSIBLE ENHANCEMENT TO IMPROVE PERFORMANCE : USE CONCURRENCY (Python advanced, Bonus material)
 
 ## Deliverables
 
@@ -73,7 +69,7 @@ The final dataset should be a `csv` file with at least the following 18 columns:
     - Have a `scraper` folder with your Python modules for scraping (note: you can use OOP or functions. Classes are not mandatory for this project. )
     - Have a `data` folder with the dataset - feel free to subdivide the folder (e.g. `raw`, `cleaned`)
     - Have a `README.md` file
-    - Have a `main.py` file to run the scraper
+    - Have a `main.py` file to run the scraper >> NOT YET IN USE
     - Have a `requirements.txt` file
     - Have a `.gitignore` file
 
@@ -102,6 +98,3 @@ The final dataset should be a `csv` file with at least the following 18 columns:
 
 ## Final note
 
-_"Attempts to create thinking machines will be a great help in discovering how we think ourselves." - Alan Turing_
-
-![You've got this!](https://i.giphy.com/media/JWuBH9rCO2uZuHBFpm/giphy.gif)
