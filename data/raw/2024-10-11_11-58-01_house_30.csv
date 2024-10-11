@@ -1,0 +1,31 @@
+Property_ID,Price,Number of frontages,Kitchen type,Bedrooms,Postal_Code,Locality_Name,extra,Subtype_of_property,Type_of_property,Living area,Furnished,Terrace surface,Type of building,How many fireplaces?,Garden surface
+20241024,485000€,2,Semi equipped,1,1650,beersel,for-sale,house,house,,,,,,
+11343253,320000€,2,Installed,3,1070,anderlecht,for-sale,town-house,house,170,No,8,,,
+20241012,799000€,4,Installed,6,8630,veurne,for-sale,villa,house,,,,,,
+20241009,1195000€,3,,,8300,knokke-heist,for-sale,house,house,180,,,All kind,,
+20241006,1190000€,4,Semi equipped,4,9890,dikkelvenne,for-sale,country-cottage,house,387,,,,,
+20241005,690000€,3,Installed,3,9000,gent,for-sale,mansion,house,138,,,,1,
+20241002,219000€,2,Installed,3,4020,liege-jupillesur-meuse,for-sale,house,house,100,No,12,,,197
+20241001,369000€,,Installed,3,9060,zelzate,for-sale,house,house,149,,46,,,24
+20240998,524000€,,Installed,6,2630,aartselaar,for-sale,house,house,212,,,,1,
+20240995,187500€,2,Installed,2,9900,eeklo,for-sale,house,house,,,,,,
+20240990,520000€,3,Hyper equipped,3,8490,jabbeke,for-sale,house,house,192,No,,,,
+10950925,1145000€,4,Installed,3,1750,sint-martens-lennik,for-sale,house,house,610,,93,,,1400
+10900810,1590000€,4,Installed,6,1750,sint-martens-lennik,for-sale,apartment-block,house,760,,93,,,1400
+11473434,550000€,,,,6181,gouy-lez-pieton,for-sale,apartment-block,house,,,,,,
+20161722,299000€,2,Installed,4,2640,mortsel,for-sale,mansion,house,180,,,All kind,,40
+20205347,349000€,4,,3,7711,dottignies,for-sale,house,house,357,,,,,
+20127067,240000€,3,Installed,4,8940,geluwe,for-sale,house,house,220,,20,,,350
+20240969,169000€,2,,4,8581,kerkhove,for-sale,house,house,152,No,,House,,
+20240968,195000€,2,Semi equipped,4,7700,mouscron,for-sale,house,house,194,No,,,,280
+20240967,165000€,,Installed,2,4400,flemalle,for-sale,house,house,100,,20,,,95
+20223074,299000€,,Semi equipped,3,8550,zwevegem,for-sale,house,house,159,,20,,,500
+20209185,220000€,,,3,5620,florennes,for-sale,house,house,160,,,,,
+20240964,490000€,4,USA hyper equipped,3,4400,flemalle,for-sale,house,house,155,,22,All kind,,1
+20240962,650000€,4,Semi equipped,3,9772,wannegem-lede,for-sale,country-cottage,house,,,,,1,
+20240960,474000€,3,Installed,3,2110,wijnegem,for-sale,house,house,154,,41,,,330
+20240955,456000€,3,Installed,4,8820,torhout,for-sale,house,house,,,,,,
+20240954,1995000€,2,,13,2500,lier,for-sale,apartment-block,house,523,,,Apartment building,,
+20240952,170000€,4,,3,6567,labuissiere,for-sale,house,house,184,,,,,
+11441201,129000€,3,,2,2890,puurs-sint-amands,for-sale,house,house,91,,,,,25
+20240948,Starting price : 349000€,2,,4,2600,berchem,for-sale,house,house,382,,,,,
